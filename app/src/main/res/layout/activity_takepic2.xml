@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/takepic_iv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"/>
+
+    <VideoView
+        android:id="@+id/takepic_vv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/DIMEN_60PX"
+        android:layout_gravity="bottom">
+
+        <ImageView
+            android:id="@+id/back_iv"
+            android:layout_width="@dimen/DIMEN_85PX"
+            android:layout_height="@dimen/DIMEN_85PX"
+            android:layout_marginLeft="@dimen/DIMEN_90PX"
+            android:src="@mipmap/icon_reset"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:id="@+id/submit_iv"
+            android:layout_width="@dimen/DIMEN_80PX"
+            android:layout_height="@dimen/DIMEN_80PX"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/DIMEN_90PX"
+            android:src="@mipmap/icon_submit"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+</FrameLayout>

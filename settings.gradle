@@ -1,0 +1,2 @@
+include ':app', ':h_ble'
+rootProject.name='AI-Smile'
